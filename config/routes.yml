@@ -1,0 +1,8 @@
+contentHome:
+  path: /
+  defaults: { _controller: 'Content\Controllers\HomePage::index' }
+
+contentHello:
+  path: /hello
+  defaults: { _controller: 'Content\Controllers\HomePage::hello', name: 'andrey' }
+
